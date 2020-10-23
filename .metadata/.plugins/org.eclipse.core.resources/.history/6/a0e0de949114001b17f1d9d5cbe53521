@@ -1,0 +1,9 @@
+package custom;
+
+public class Validation {
+	public boolean isValidAge(int a) {
+		
+		
+		return false;
+	}
+}

@@ -1,0 +1,25 @@
+package egSearch;
+
+public class SearchArray {
+	public boolean isValueExisting(int ar[], int searchElement) {
+		boolean b = false;
+		for (int i = 0; i < ar.length; i++) {
+			if(ar[i] == searchElement) {
+				b = true;
+				break;
+			}
+		}
+		return b;
+	}
+	public void printAllLocationsOfSearchValue(int ar[], int SearchElement) {
+		
+		boolean b = false;
+		for (int i = 0; i < ar.length; i++) {
+			if(ar[i] == searchElement) {
+				b = true;
+				System.out.println(searchElement + " found at position " + (i-1));
+			}
+			
+		}
+	}
+}

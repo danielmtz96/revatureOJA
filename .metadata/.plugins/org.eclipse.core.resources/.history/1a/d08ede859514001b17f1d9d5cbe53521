@@ -1,0 +1,28 @@
+package custom;
+
+public class ValidationMain { // presentation layer
+	public static void main(String[] args) {
+		
+		Validation v = new Validation();
+		
+		try {
+			if (v.isValidAge(20)) {
+				System.out.println("Age Validated");
+			}
+		} catch (BusinessCheckedException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			if (v.isValidMobileNumber("+1-9567636513")) {
+				System.out.println("Mobile number validated");
+			}
+		} catch(BusinessUncheckedException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		String test_email = "danmargut@gmail.com";
+		
+		System.out.println(test_email.substring(test_email.length() - 9, test_email.length() - 1));
+	}
+}

@@ -1,0 +1,11 @@
+import eg2.MobileV1;
+
+public class MobileV2 extends MobileV1 {
+	public void calling() {
+		System.out.println("Gaming feature from V2");
+	}
+	
+	public void sendMMS() {
+		System.out.println("MMS feature from V2");
+	}
+}

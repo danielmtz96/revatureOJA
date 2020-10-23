@@ -1,0 +1,51 @@
+package eg1;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		Integer i1 = 8;
+		Integer i2 = 8;
+		Integer i3 = new Integer(8);
+		Integer i4 = 5;
+		
+		System.out.println("i1 == i2 " + (i1 == i2));
+		System.out.println("i1 == i3 " + (i1 == i3));
+		System.out.println("i1 == i4 " + (i1 == i4));
+		
+		// comparing data
+		System.out.println("\nComparing data");
+		System.out.println("i1.equals(i2) = " + i1.equals(i2));
+		System.out.println("i1.equals(i3) = " + i1.equals(i3));
+		System.out.println("i1.equals(i4) = " + i1.equals(i4));
+		
+		int x = 100;
+		Integer i5 = x; // Autoboxing
+		
+		System.out.println("x: " + x);
+		System.out.println("i5: " + i5);
+		
+		i5 = 99;
+		System.out.println("x: " + x);
+		System.out.println("i5: " + i5);
+		
+		System.out.println("\nInteger max value:" + Integer.MAX_VALUE);
+		System.out.println("\nLong.MAX_VALUE: " + Long.MAX_VALUE);
+		System.out.println("\nInteger min value: " + Integer.MIN_VALUE);
+		
+		String s = "120";
+		Integer i6 = Integer.parseInt(s); //WrapperClass.parseXyZ(stringobject); apart from Character class
+	    System.out.println("i6: "+ i6);
+	    
+	    i6 = 999999;
+	    s = i6.toString();  
+	    System.out.println("\ns = " + s);
+	    
+	    int z = 9898989;
+	    s = z + ""; // anything in java can be converted to a String object by appending with "" 
+	    System.out.println("s = " + s);
+	    //s2 = z.toString(); can't do .toString on primitives
+	    
+	    Integer i7 = 10;
+	    System.out.println("\ni7.compareTo(10): " + i7.compareTo(10));
+	}
+}

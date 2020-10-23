@@ -1,0 +1,20 @@
+package eg2;
+
+// using method from a different package ("folder")
+
+import eg3.Animal;
+
+// Accessing a class within a different class
+public class Demo2 {
+	public static void main(String[] args) {
+		Calculator.helloStaticCalci();
+		
+		Animal.helloStaticAnimal();
+		
+		Animal.helloStaticAnimal2();
+		
+		// creating an object 
+		Calculator c = new Calculator();
+		c.helloStaticCalci();
+	}
+}

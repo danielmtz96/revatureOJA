@@ -1,0 +1,7 @@
+package egutility;
+
+public class ArrayUtilDemo {
+	public static void main(String[] args) {
+		
+	}
+}

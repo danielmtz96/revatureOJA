@@ -1,0 +1,7 @@
+package egSearch;
+
+public class SearchArray {
+	public boolean isValueExisting(int ar[], int searchElement) {
+		
+	}
+}

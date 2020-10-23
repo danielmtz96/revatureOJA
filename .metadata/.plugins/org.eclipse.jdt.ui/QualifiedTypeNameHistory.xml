@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="eg3.Animal"/>
+    <fullyQualifiedTypeName name="eg3.Team"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
+    <fullyQualifiedTypeName name="eg1.MyClass"/>
+    <fullyQualifiedTypeName name="eg1.MyClass.InnerPublic"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="eg2.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>

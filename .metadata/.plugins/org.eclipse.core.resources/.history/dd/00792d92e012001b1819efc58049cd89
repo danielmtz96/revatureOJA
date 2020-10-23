@@ -1,0 +1,25 @@
+package eg1;
+
+public class MyClass {
+	private class InnerPrivate{
+		
+	}
+	protected class InnerProtected{
+		
+	}
+	public class InnerPublic{
+		public void helloInnerPublic() {
+			System.out.println("Hello from helloInnerPublic");
+		}
+		// error: can't have static inner class
+		//public static void helloInnerPublicStatic() {
+			
+		//}
+		public class InnerInnerPublic{
+			
+		}
+	}
+	public static InnerStatic{
+		
+	}
+}

@@ -1,0 +1,11 @@
+package eg4;
+
+public class Demo4 {
+// x and y are global but are instance or object-level. You can acess them only with the help of objects.
+	int x;
+	int y;
+	static int z;
+	public static void main(String[] args) {
+		
+	}
+}

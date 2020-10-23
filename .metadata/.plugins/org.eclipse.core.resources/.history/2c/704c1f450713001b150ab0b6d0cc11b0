@@ -1,0 +1,15 @@
+package eg_if_else_switch;
+
+public class DemoMain {
+	public static void main(String[] args) {
+		
+		int x = 7;
+		
+		if (x == 8) {
+			System.out.println("Yes, it is 8");
+		}
+		else {
+			System.out.println("No, it is not.");
+		}
+	}
+}

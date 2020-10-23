@@ -1,0 +1,9 @@
+package eg1;
+
+public class Calculator {
+	// custom Constructor
+	public Calculator(String name) {
+		System.out.println("Hello " + name);
+	}
+	// when the programmer creates his/her own constructor, the compiler removes its default constructor
+}

@@ -1,0 +1,16 @@
+package eg1;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		System.out.println("Hello!");
+		
+	}
+	// anything which is non-static creates an object of that class to access it
+	// object creation Syntax:  ClassName objName = new Constructor()
+	// new: dynamic memory allocation
+	public static void myStaticMethod() {
+		System.out.println("Hello from myStaticMethod()");
+	}
+
+	
+}

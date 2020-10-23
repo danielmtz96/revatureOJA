@@ -1,0 +1,13 @@
+package eg2;
+
+public class Player extends Person{
+	
+	private double averageScore;
+	private Team team;
+	
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

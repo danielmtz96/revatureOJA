@@ -1,0 +1,8 @@
+package eg2;
+
+public class BusinessLogic {
+	// FileNotFound exception
+	public void openFile(String fileName) {
+		
+	}
+}

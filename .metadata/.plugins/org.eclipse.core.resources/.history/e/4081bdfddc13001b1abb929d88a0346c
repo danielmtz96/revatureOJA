@@ -1,0 +1,27 @@
+package eg1;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		Integer i1 = 8;
+		Integer i2 = 8;
+		Integer i3 = new Integer(8);
+		Integer i4 = 5;
+		
+		System.out.println("i1 == i2 " + (i1 == i2));
+		System.out.println("i1 == i3 " + (i1 == i3));
+		System.out.println("i1 == i4 " + (i1 == i4));
+		
+		// comparing data
+		System.out.println("\nComparing data");
+		System.out.println("i1.equals(i2) = " + i1.equals(i2));
+		System.out.println("i1.equals(i3) = " + i1.equals(i3));
+		System.out.println("i1.equals(i4) = " + i1.equals(i4));
+		
+		int x = 100;
+		integer i5 = x;
+		
+		System.out.println("x: " + x);
+		System.out.println("i5: " + i5);
+	}
+}

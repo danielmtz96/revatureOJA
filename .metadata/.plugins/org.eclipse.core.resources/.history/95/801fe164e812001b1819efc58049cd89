@@ -1,0 +1,15 @@
+package eg1;
+
+public class DemoMain {
+	public static void main(String[] args) {
+		//Calculator c = new Calculator()  error w/o string
+		Calculator c = new Calculator("Vinay"); // constructors executed when object is being created for that 
+		// particular class
+		
+		Calculator c1 = new Calculator();
+		
+		Calculator c3 = new Calculator(19, 99);
+		
+		
+	}
+}

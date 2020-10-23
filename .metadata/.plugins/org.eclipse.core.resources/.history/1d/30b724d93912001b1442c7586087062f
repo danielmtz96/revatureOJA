@@ -1,0 +1,12 @@
+package eg1;
+
+public class CastingDemo {
+	public static void main(String[] args) {
+		/*
+		 * Type casting is a way to convert one primitive type to another.
+		 * There are 2 types
+		 * 1) Implicit casting
+		 */
+	}
+}
+	

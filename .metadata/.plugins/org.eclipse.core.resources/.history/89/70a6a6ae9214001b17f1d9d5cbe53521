@@ -1,0 +1,20 @@
+package custom;
+
+public class Validation {
+	
+	public boolean isValidAge(int age) throws BusinessCheckedException {
+		// no built-in exception in Java to handle business requirement
+		// create custom exception
+		if (age <= 0) {
+			throw new BusinessCheckedException("Age cannot be zero or negative");
+		}
+		
+		if (age < 19 || age > 40) {
+			throw new BusinessException("It should be between 19 and 40 only.")
+		}
+		
+		return true;
+	}
+	
+	public boolean isValidMobileNumber(String mobile)
+}

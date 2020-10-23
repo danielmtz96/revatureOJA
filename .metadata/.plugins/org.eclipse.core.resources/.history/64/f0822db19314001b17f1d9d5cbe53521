@@ -1,0 +1,24 @@
+package custom;
+
+public class ValidationMain { // presentation layer
+	public static void main(String[] args) {
+		
+		Validation v = new Validation();
+		
+		try {
+			if (v.isValidAge(20)) {
+				System.out.println("Age Validated");
+			}
+		} catch (BusinessCheckedException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			if (v.isValidMobileNumber("")) {
+				System.out.println("Mobile number validated");
+			}
+		} catch(BusinessUncheckedException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

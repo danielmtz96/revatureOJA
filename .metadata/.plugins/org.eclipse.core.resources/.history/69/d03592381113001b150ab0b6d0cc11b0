@@ -1,0 +1,8 @@
+package egSearch;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		int ar[] = {22, 11, 22, 33, 11, 22, 33, 11, 22};
+		
+	}
+}

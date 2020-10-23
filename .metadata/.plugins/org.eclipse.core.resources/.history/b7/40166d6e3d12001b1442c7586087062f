@@ -1,0 +1,8 @@
+package eg2;
+
+// Accessing a class within a different class
+public class Demo2 {
+	public static void main(String[] args) {
+		
+	}
+}

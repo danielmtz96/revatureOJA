@@ -1,0 +1,11 @@
+package custom;
+
+public class Validation {
+	
+	public boolean isValidAge(int a) {
+		// no built-in exception in Java to handle business requirement
+		// create custom exception
+		
+		return false;
+	}
+}

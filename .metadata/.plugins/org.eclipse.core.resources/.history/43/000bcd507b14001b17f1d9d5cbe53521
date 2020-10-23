@@ -1,0 +1,12 @@
+package examples;
+
+public class TitleCaseDemo {
+	public static void main(String[] args) {
+		String s = "hello hi good morning I am enjoying programming with java";
+		
+		// convert every word's first letter to uppercase, & print back whole sentence with upper case
+		StringBuilder sb = new StringBuilder();
+		String ar[] = s.split(" ");
+		
+	}
+}

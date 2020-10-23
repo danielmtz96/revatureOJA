@@ -1,0 +1,39 @@
+package custom;
+
+public class ValidationMain { // presentation layer
+	/* new features:
+	 * GmailException (to make sure the only registered emails are gmail.com)
+	 * SSNException: valid social security number
+	 */
+	public static void main(String[] args) {
+		
+		Validation v = new Validation();
+		
+		try {
+			if (v.isValidAge(20)) {
+				System.out.println("Age Validated");
+			}
+		} catch (BusinessCheckedException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			if (v.isValidMobileNumber("+1-9567636513")) {
+				System.out.println("Mobile number validated");
+			}
+		} catch(BusinessUncheckedException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			if(v.isValidGmail("danmargut@hotmail.com")) {
+				System.out.println("Gmail validated.");
+			} 
+		} catch(GmailException e) {
+				System.out.println(e.getMessage());
+			}
+	   
+		String test_social = "000-00-0000"; //sample social
+		test_social.matches("[0-9]{3}-[0-9]{2}-[0-9]{4}");
+	}
+}

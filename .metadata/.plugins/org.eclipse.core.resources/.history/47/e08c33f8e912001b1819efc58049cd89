@@ -1,0 +1,8 @@
+package eg2;
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+		Employee e1 = new Employee(100, "Sachin", 123456789);
+		e1.printEmployee();
+	}
+}

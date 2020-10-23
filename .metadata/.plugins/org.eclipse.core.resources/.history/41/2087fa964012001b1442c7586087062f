@@ -1,0 +1,14 @@
+package eg4;
+
+public class Product {
+// name and cost are global but are instance or object-level. You can access them only with the help of objects.
+	// every object will have its own name and own cost.
+	// discount will be common among all products.
+	
+	String name;
+	float cost;
+	static float discount = 9.5f;
+	public static void main(String[] args) {
+		
+	}
+}

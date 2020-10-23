@@ -1,0 +1,21 @@
+package eg2;
+
+public class Employee extends Person {
+	
+	private String designation;
+	private double salary;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String designation, double salary) {
+		//super(); // want to remove this line
+		super(id, name);
+		this.designation = designation;
+		this.salary = salary;
+	}
+	
+	
+
+}

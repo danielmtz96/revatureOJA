@@ -1,0 +1,44 @@
+package eg2;
+
+public class Employee {
+	private int id;
+	private String name;
+	private long contact;
+	// some new employees will also register city and email
+	private String city;
+	private String email;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(int id, String name, long contact) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.contact = contact;
+	}
+	
+	// code repetition
+	public Employee(int id, String name, long contact, String city, long email) {
+		this(id, name, contact); // constructor chaining, remove super()
+		// performs the same function as:
+		/*this.id = id;
+		this.name = name;
+		this.contact = contact;
+		*/
+		this.city = city;
+		this.email = email;
+	}
+
+	public void printEmployee() {
+		System.out.println("Id: " + id);
+		System.out.println("Name: " + name);
+		System.out.println("contact: " + contact);
+		System.out.println("City: "+ city);
+		System.out.println("Email: " + email);
+	}
+
+
+	
+}

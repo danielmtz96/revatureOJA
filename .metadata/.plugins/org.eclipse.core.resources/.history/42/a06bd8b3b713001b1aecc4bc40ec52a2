@@ -1,0 +1,8 @@
+package eg2;
+
+public class MobileV2 extends MobileV1 {
+	public void calling() {
+		System.out.println("Gaming feature from V2");
+	}
+	
+}

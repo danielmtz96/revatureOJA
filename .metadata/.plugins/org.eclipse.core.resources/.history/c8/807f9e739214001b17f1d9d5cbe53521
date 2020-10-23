@@ -1,0 +1,13 @@
+package custom;
+
+public class ValidationMain { // presentation layer
+	public static void main(String[] args) {
+		
+		Validation v = new Validation();
+		
+		try {
+			if (v.isValidAge(0)) {
+				System.out.println("Age Validated");
+			}
+		}
+}

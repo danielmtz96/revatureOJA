@@ -1,0 +1,8 @@
+package eg2;
+
+public class Hello {
+	private void helloPrivate() {
+		System.out.println("Hello from helloPrivate");
+	}
+	
+}

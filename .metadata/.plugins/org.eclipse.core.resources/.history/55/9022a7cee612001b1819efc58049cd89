@@ -1,0 +1,8 @@
+package eg1;
+
+public class Calculator {
+	// custom Constructor
+	public Calculator(String name) {
+		System.out.println("Hello " + name);
+	}
+}

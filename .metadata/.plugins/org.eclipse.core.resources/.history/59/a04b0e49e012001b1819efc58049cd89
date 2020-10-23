@@ -1,0 +1,24 @@
+package eg1;
+
+public class MyClass {
+	private class InnerPrivate{
+		
+	}
+	protected class InnerProtected{
+		
+	}
+	public class InnerPublic{
+		publuc void helloInnerPublic() {
+			
+		}
+		public static void helloInnerPublicStatic() {
+			
+		}
+		public class InnerInnerPublic{
+			
+		}
+	}
+	public static InnerStatic{
+		
+	}
+}

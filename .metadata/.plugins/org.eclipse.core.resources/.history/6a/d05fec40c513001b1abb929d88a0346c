@@ -1,0 +1,16 @@
+package eg2;
+
+public class Team {
+	private int teamid;
+	private String teamname;
+	private String coachname;
+	
+	public Team(int teamid, String teamname, String coachname) {
+		super();
+		this.teamid = teamid;
+		this.teamname = teamname;
+		this.coachname = coachname;
+	}
+	
+	
+}

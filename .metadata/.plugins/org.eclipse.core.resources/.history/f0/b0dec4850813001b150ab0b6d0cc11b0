@@ -1,0 +1,7 @@
+package loops;
+
+public class LoopsDemo {
+	public static void main(String[] args) {
+		// loops: perform a task a various number of times
+	}
+}

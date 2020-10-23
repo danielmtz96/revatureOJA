@@ -1,0 +1,14 @@
+package eg3;
+
+import eg2.Hello;
+
+public class HelloAgainMain {
+	public static void main(String[] args);
+	
+	Hello h = new Hello();
+	h.helloPublic();
+	h.helloDefault();
+	h.helloProtected();
+	// private
+	//h.helloPrivate();
+}

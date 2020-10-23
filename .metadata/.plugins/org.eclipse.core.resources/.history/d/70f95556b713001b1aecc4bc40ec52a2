@@ -1,0 +1,6 @@
+package eg2;
+
+public class Mobile V1 {
+	private int id;
+	
+}

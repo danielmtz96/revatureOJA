@@ -1,0 +1,57 @@
+package eg1;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		List li = new LinkedList();  // if you don't specify, you will insert Object... which can cause
+		// issues when retrieving information. Correct syntax: List<type> li = new LinkedList<>();
+		li.add("hello!");
+		li.add(1211111);
+		li.add(true);
+		li.add('d');
+		li.add(1233.4455f);
+		System.out.println(li);
+		
+		// RHS should be its implementing class
+		List<Integer> list1 = new ArrayList<>();
+		list1.add(123);
+		list1.add(121);
+		list1.add(null);
+		list1.add(121);
+		list1.add(null);
+		list1.add(null);
+		list1.add(44);
+		list1.add(12);
+		list1.add(123);
+		
+		// insertion at the end
+		list1.add(55);
+		System.out.println("list1: " + list1);
+		
+		// insertion at specific position
+		System.out.println("\nInsertion at specific position:" );
+		list1.add(1, 66);
+		System.out.println("list1: " + list1);
+		
+		
+		// update
+		list1.set(3,  77);
+		System.out.println("\nupdating list1:");
+		System.out.println("list1: " + list1);
+		
+		// delete
+		//list1.remove(77); // index, IndexOutOfBoundsException
+		list1.remove(1);
+		System.out.println("list1: " + list1);
+		
+		// remove is also overloaded
+		Integer i = 77;
+		list1.remove(i); // removes first occurrence of that object value
+		System.out.println("\nlist1 after deleting value");
+		System.out.println("list1: " + list1);
+	}
+}

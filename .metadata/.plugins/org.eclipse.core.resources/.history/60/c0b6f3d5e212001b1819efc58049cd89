@@ -1,0 +1,17 @@
+package eg3;
+
+import eg2.Hello;
+
+public class HelloAgainMain {
+	public static void main(String[] args);
+	
+	Hello h = new Hello();
+	h.helloPublic();
+	
+	// protected and default is only within the package
+	// for protected it is only accessible in child classes if they are outside the package, too
+	//h.helloDefault();
+	..h.helloProtected();
+	// private
+	//h.helloPrivate();
+}

@@ -1,0 +1,10 @@
+package eg1;
+
+public class MyClass {
+	private class InnerPrivate{
+		
+	}
+	protected class InnerProtected{
+		
+	}
+}

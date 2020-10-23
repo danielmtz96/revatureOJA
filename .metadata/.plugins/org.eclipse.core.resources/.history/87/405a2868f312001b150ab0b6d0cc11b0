@@ -1,0 +1,21 @@
+package eg1;
+
+public class DemoMain {
+	public static void main(String[] args) {
+		MyClass.mystatic();
+		
+		MyClass c = new MyClass();
+		c.myNonStatic();
+		
+		MyClass.InnerPublic i = c.new InnerPublic();
+		i.helloInnerPublic();
+		
+		MyClass.InnerStaticPublic.helloInnerPublicStatic();
+		
+		// object of inner class
+		MyClass.InnerStaticPublic i2 = new MyClass.InnerStaticPublic(); 
+		i2.helloInnerStaticNonStatic();
+		
+		
+	}
+}

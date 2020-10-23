@@ -1,0 +1,23 @@
+package eg1;
+
+public class DemoMain {
+	public static void main(String[] args) {
+		MyClass.mystatic(); // since it's a static method, you can just call it directly 
+		                    // without instantiating a class
+		
+		MyClass c = new MyClass();
+		c.myNonStatic(); // myNonstatic() is a non-static method (clearly), so you need to create an object
+		                 // c that is an instance of MyClass() to access it
+		
+		MyClass.InnerPublic i = c.new InnerPublic();
+		i.helloInnerPublic();
+		
+		MyClass.InnerStaticPublic.helloInnerPublicStatic();
+		
+		// object of inner class
+		MyClass.InnerStaticPublic i2 = new MyClass.InnerStaticPublic(); 
+		i2.helloInnerStaticNonStatic();
+		
+		
+	}
+}

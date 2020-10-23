@@ -1,0 +1,23 @@
+package egutility;
+
+import java.util.Arrays;
+
+public class ArrayUtilDemo {
+	public static void main(String[] args) {
+		
+		int ar[] = { 22, 11, 22, 33, 11, 22, 11, 227888, 456 };
+		
+		System.out.println(Arrays.toString(ar));
+		
+		Arrays.sort(ar);
+		
+		System.out.println(Arrays.toString(ar));
+		
+		// for calling binary search, your array should and must be sorted in ascending order only
+		// if search element is found, it will print 0 or positive value
+		// if it is not found: then it will print a negative value
+		System.out.println("Arrays.BinarySearch(ar,100): " + Arrays.binarySearch(ar, 100));
+		System.out.println("Arrays.BinarySearch(ar,33): " + Arrays.binarySearch(ar, 33));
+
+	}
+}

@@ -1,0 +1,13 @@
+package eg1;
+
+public class DemoMain {
+	public static void main(String[] args) {
+		MyClass.mystatic();
+		
+		MyClass c = new MyClass();
+		c.myNonStatic();
+		
+		MyClass.InnerPublic i = c.new InnerPublic();
+		i.helloInnerPublic();
+	}
+}

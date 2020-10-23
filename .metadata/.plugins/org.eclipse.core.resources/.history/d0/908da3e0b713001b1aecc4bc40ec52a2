@@ -1,0 +1,8 @@
+package eg1;
+
+public class MobileV3 extends MobileV2 {
+	public void camera() {
+		System.out.println("Click pictures from V3");
+	}
+
+}

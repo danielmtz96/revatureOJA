@@ -1,0 +1,9 @@
+package eg3;
+
+public class PlayerMain {
+	public static void main(String[] args) {
+		Player p1 = new Player(100, "Dinesh");
+		System.out.println("Printing p1");
+		p1.printPlayer();
+	}
+}

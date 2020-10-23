@@ -1,0 +1,41 @@
+package eg1;
+
+public class OperatorsDemo {
+	// Java operators examples
+	public static void main(String[] args) {
+		int x;
+		// error message System.out.println("x before assigning: " + x);
+		x = 3;
+		System.out.println("value of x: " + x);
+		
+		// Parenthesis testing
+		
+		int y = 5;
+		int z = 7;
+		
+		System.out.println("\nx + (y*z)");
+		System.out.println("addmult: " + x + (y*z)); // value displayed is 3 concatenated with 35
+		
+		System.out.println("\n(x + y + z)");
+		System.out.println("addmult: " + (x + y + z));
+		
+		// post-fix operators
+		System.out.println("\nx++ = " + x++);
+		System.out.println("new x value: " + x);
+		
+		System.out.println("\n--x = " + --x);
+		System.out.println("nx-- = " + x--);
+		System.out.println("new x value: " + x);
+		
+		// multiplicative operators
+		// integers
+		System.out.println("\nz/y = " + z / y);
+		System.out.println("modulo z/y = " + z % y);
+		
+		// suppose we had doubles:
+		double X = 5.0;
+	    double Y = 7.0;
+	    System.out.println("X");
+	}
+		
+}
